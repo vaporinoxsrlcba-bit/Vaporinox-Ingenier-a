@@ -131,8 +131,10 @@ section > h2 {
   line-height: 1.2;
 }
 
+#contactos > h2 { justify-content: center; text-align: center; }
+
 section > h2::after,
-.socials > h2::before {
+section > h2::before {
   flex: 1;
   height: 1px;
   background: var(--border);

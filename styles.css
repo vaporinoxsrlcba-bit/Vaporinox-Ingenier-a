@@ -10,8 +10,8 @@
   color-scheme: dark;
   --page-background: #0d1e30;
   --action-blue: #3776b4;
-  --contact-blue: var(--action-blue);
-  --contact-hover: #2b649b;
+  --contact-green: #6fbe44;
+  --contact-hover: #61ac39;
   --brand-blue: #007cb9;
   --industrial-halo: color-mix(in srgb, var(--brand-blue) 52%, #132b3f);
   --industrial-backdrop:
@@ -255,14 +255,14 @@ nav .icon-frame {
   padding: .33rem clamp(.5rem, 1.1vw, .9rem) .33rem clamp(.8rem, 1.4vw, 1.15rem);
   border: 1px solid var(--border);
   border-radius: .72rem;
-  background: var(--contact-blue);
+  background: var(--contact-green);
 }
 
-#contactos strong { text-shadow: 0 1px 2px #132b3f; }
+#contactos strong { text-shadow: 0 1px 2px #14321f; }
 #contactos a .icon-frame {
-  border-color: #91bee8;
-  background: #163757;
-  box-shadow: 0 1px 5px #061b3354;
+  border-color: #74d69e;
+  background: #0f6036;
+  box-shadow: 0 1px 5px #073b2b54;
 }
 
 /* Redes sociales */
